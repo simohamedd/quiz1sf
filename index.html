@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salesforce Admin Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container" id="quiz">
+  <div class="question-number">Question <span id="current">1</span> of <span id="total">60</span></div>
+  <h2 id="question-text"></h2>
+  <div id="question-instruction" class="instruction"></div>
+  <form id="options-form"></form>
+  <button class="btn" onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="quiz-container results hidden" id="results">
+  <h2>Quiz Completed!</h2>
+  <p>Your score is <strong id="score"></strong>/60 (<strong id="percentage"></strong>%)</p>
+  
+  <div class="results-section">
+    <h3>Summary:</h3>
+    <p>Correct Answers: <span id="correct-count"></span></p>
+    <p>Incorrect Answers: <span id="incorrect-count"></span></p>
+  </div>
+
+  <div class="results-section">
+    <h3>Detailed Results:</h3>
+    <div id="detailed-results"></div>
+  </div>
+  
+  <button class="btn" onclick="restartQuiz()">Restart Quiz</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

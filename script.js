@@ -446,6 +446,13 @@ const quizData = [
     answer: "B",
     type: "single"
   },
+  {
+    question: " Northern Trail Outfitters has the Case Object set to private. The support manager raised a concern the reps have a boarder view of data than expected and can see all cases on their groups dashboards. What could be Causing reps to have inappropriate access to data on dashboards? this?",
+    options: ["Dashboard Filters", "Dashboard Subscriptions", " Dynamic Dashboards", " Dynamic Dashboards"],
+    answer: "C",
+    type: "single"
+  },
+  
 
 ];
 

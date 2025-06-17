@@ -422,6 +422,30 @@ const quizData = [
     type: "multiple",
     count: 2
   },
+  {
+    question: "An administrator is on a tight deadline to create dashboards for the sales and marketing teams at AW Computing. What should the administrator do to meet the deadline without increasing the budget?",
+    options: ["Train someone on the sales and marketing teams to build dashboards", "Check the AppExchange for prebuilt Solution that can be easily customized", "Hire a Consultant to build the custom dashboards", "Build the dashboards manually to meet the deadline"],
+    answer: "B",
+    type: "single"
+  },
+  {
+    question: "Dreamhouse realty wants to offer a form on its experience cloud site where inspectors will submit findings from a property inspection. Which feature should an administrator place on the page to fulfill this requirement?",
+    options: ["Related List", "Related List", "Record Detail", " Screen Flow"],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: "The administrator at Ursa Major Solar need to make sure the unassigned cases from VP customers get transferred to the appropriate service representative within 5 hours. VIP Customers have access to support 24 hours a day. How should this be configured ?",
+    options: ["Assignment Rules", "Business Hours", "Case Queues", "Escalation Rules"],
+    answer: "A",
+    type: "single"
+  },
+  {
+    question: "An administrator at Ursa Major Solar needs to send information to an external accounting system whenever an opportunity closes. What workflow action should the administrator use to accomplish this?",
+    options: ["Assign Task", "Outbound Message", "Create Record", "Custom Notification"],
+    answer: "B",
+    type: "single"
+  },
 
 ];
 

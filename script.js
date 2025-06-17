@@ -391,6 +391,38 @@ const quizData = [
     answer: "C",
     type: "single"
   },
+  {
+    question: " The administrator for Cloud Kicks has created a screen flow to help service reps ask the same set of questions when customers call in with issues. This screen should be visible from cases. How should the screen flow be distributed?",
+    options: ["Page Layout", "Component Filter", "Lightning page", "Home page"],
+    answer: "C",
+    type: "single"
+  },
+  {
+    question: "Northern Trail Outfitters has a custom quick action on Account that creates a new Case. How should an administrator make the quick action available on the Salesforce mobile app?",
+    options: ["Create a custom Lightning App with the action", " Modify compact Case page layout to include the action", " Include the action in the Salesforce Mobile Navigation menu", "Add the Salesforce Mobile and Lightning Experience action to the page layout"],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: "The administrator at DreamHouse Realty added an email quick action to the Case page layout and is unable to see the action on the case feed. Which feature must be enabled to ensure the quick action will be displayed as expected?",
+    options: ["Email Notifications", "Email-to-Case", "Email Alerts", "Email Templates"],
+    answer: "B",
+    type: "single"
+  },
+  {
+    question: "An administrator has reviewed an upcoming critical update. How should the administrator proceed with activation of the critical update?",
+    options: ["Activate the critical update in a sandbox", "Allow the critical update to auto-activate", " Activate the critical update in production", "Allow the critical update to auto-activate in a sandbox"],
+    answer: "A",
+    type: "single"
+  },
+  {
+    question: "DreamHouse Realty regularly processes customer requests for warranty work and would like to offer customers a self-serve option to generate cases. Which two solutions should an administrator use to meet this request?  Choose 2 answers",
+    options: ["Web-to-Case", "Case Escalation", "Case Queues", "Email-to-Case"],
+    answer: "CD",
+    type: "multiple",
+    count: 2
+  },
+
 ];
 
 let currentQuestion = 0;

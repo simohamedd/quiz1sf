@@ -516,6 +516,133 @@ const quizData = [
     type: "multiple",
     count: 2
   },
+  {
+    question: "Universal Containers has two sales teams, Sales team A and Sales team B. Each team has their own role in the role hierarchy. Both roles are subordinates of the same Manager role. How Should the administrator share records owned by sales team A with Sales team B?",
+    options: ["Hierarchical sharing", "Use Manual sharing", "Criteria based sharing", "Owner based sharing"],
+    answer: "C",
+    type: "single",
+  },
+  {
+    question: " An administrator at Cloud Kicks needs to export a file of closed won opportunities from the last 90 days. The file should include the Opportunity Name, ID, Close Date, and Amount. How should the administrator export this file? ",
+    options: ["Data Export Wizard", "Data Import Wizard", "Data Export Wizard", "Data Loader"],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: " Northern Trail Outfitters wants emails received from customers to generate cases automatically. How should the administrator ensure that the emails are sent to the correct queue?",
+    options: ["Utilize a flow to identify the correct queue and assign the case", "Use a custom email services to set the owner of the case upon creation", "Create an Escalation Rules to send cases to the correct queue", "Configure Email-to-Case so emails are delivered to the correct queue."],
+    answer: "D",
+    type: "single",
+  },
+  {
+    question: "Sales reps at Cloud Kicks want to be notified when they have a high likelihood of winning an opportunity over $1,000,000. Which feature meets this requirement? ",
+    options: ["Key Deals", "Big Deal Alerts", "Activity Timeline", " Performance chart"],
+    answer: "B",
+    type: "single"
+  },
+  {
+    question: "Universal Container wants to increase the security of their org by requiring stricker user passwords. Which two of the following should an administrator configure?  Choose 2 answers ",
+    options: ["Password different then username", "Prevent common words", "Minimum password length", "Password complexity requirement"],
+    answer: "CD",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "Northern Trail Outfitters wants to know the average stage duration for all closed Opportunities. How should an administrator support this request? ",
+    options: ["Use process builder to capture the daily average on each opportunity", "Add Formula Fields to track Stages on each Opportunity", "Run the Opportunity Stage Duration report", "Refresh weekly reporting snapshots for Closed Opportunities"],
+    answer: "C",
+    type: "single",
+  },
+  {
+    question: "Ursa Major Solar has a path on Case. The Company wants to require its users to follow the status values as they are on the path. Agents should be prohibited from preventing the case back to a previous status. Which Feature Should an administrator use to fulfill this request? ",
+    options: ["Validation rules", "Global Value Picklists", "Global Value Picklists", "Dependent Picklists"],
+    answer: "A",
+    type: "single"
+  },
+  {
+    question: "  Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need? Choose Three answers ",
+    options: ["Enable guided selling", "Use Validation Rules", "Configure Opportunity Path", "Use Flow to mark fields required","Mark fields required on the page layout"],
+    answer: "BCE",
+    type: "multiple",
+    count: 3
+  },
+  {
+    question: " Cloud Kicks (CK) has new administrator who is asked to put together a memo detailing salesforce uses to budget for upcoming license purchases. Where Should the administrator go to find out what type of licenses CK Has purchased and how many are available?",
+    options: ["Search for licenses types in setup", "User Licenses Related List in Company information", "User Management settings in setup", "Usage based entitlement related list in company information"], 
+    answer: "B",
+    type: "single" 
+  },
+  {
+    question: "The marketing team at Ursa Major Solar wants to send a personalized email whenever a lead fills out the web-to-Lead form on their website. They want to send different Message based on the Lead Industry Field Value. What Should an administrator configure to meet this requirement?",
+    options: ["Use Validation rule to trigger workflow to email to Lead", "Configure an auto response rule to email the lead", "Add a public group and process builder to email the lead", "Create an assignment rule to email the lead"],
+    answer: "B",
+    type: "single",
+  },
+  {
+    question: "Cloud Kicks has a Customer success agent going on leave and needs to change ownership on multiple cases. Which two users are able to fulfill this request?  Choose 2 answers ",
+    options: ["A user with Read Permission on account", "A user with manager role above the agent.", "A user with the System Administrator profile", "A user with the Manage Cases Permission."],
+    answer: "CD",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "The marketing director at Northern Trail Outfitters has requested that the budget field is populated in order for the Lead Status field to be marked as qualified. What tool should the administrator use to fulfill this request?",
+    options: ["Lead Conversion", "Require Field", "Workflow Rule", "Validation Rule"],
+    answer: "D",
+    type: "single"
+  }, 
+  {
+    question: "  The administrator are Cloud Kicks created a new field for tracking returns on their new cloud shoe. A user has submitted case to the administrator indication that the new field is unavailable. Which two steps should an administrator do to troubleshoot this issue?  Choose 2 answers",
+    options: ["Ensure that the page layout for the user's profile has been updated", "Run the setup audit trail for the organization.", "Update the organization wide default for the object", "Review the field level security of the field for the user profile."],
+    answer: "AD",
+    type: "multiple",
+    count: 2
+  }, 
+  {
+    question: "  The administrator at Ursa Major Solar has Created a new record type for customer warranty cases  which two assignments should the administrator use to display the new record type to users? Choose 2 answers ",
+    options: ["Profile Assignment", "Role Assignment", "App Manager Assignment", "Page layout Assignment"],
+    answer: "AD",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "  A new Sales Rep at Ursa Major has a qualified lead that is ready for conversation. When using the Lead Conversion process, which two records can be Created? Choose 2 answers",
+    options: [" Account", " Campaign", " Campaign", "  Contact"],
+    answer: "AD",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "  Universal Containers (UC) has a queue that is used for managing tasks that need to be worked by the UC customer support team. The same team will now be working some of UC's Cases. Which two options should the administrator use to help the support team?  Choose 2 answers",
+    options: ["Configure a flow to assign the cases to the queue.", " Use assignment rules to set the queue as the owner of the case", " Add Cass to the existing queue as available object.", " Create a new queue and add Cases as an available object."],
+    answer: "AB",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: " The administrator at AW Computing wants to send off client welcome tasks and a welcome email to the primary contact automatically when an Opportunity is Closed won. What automation tool best accomplishes this?",
+    options: [" Validation Rule", "Outbound Message", "Approval Process", "Process Builder"],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: " Cloud Kicks users are seeing error messages when they use one of their screen flows. The error messages are confusing but could be resolved if the users entered more information on the account before starting the flow. How should the administrator address this issues?",
+    options: ["Remove validation rules so that the users are able to process without complete records.", "Create a permission set to allow users to bypass the error.", "use a fault connector and display a screen with text explaining what went wrong and how to correct it.", "Uncheck the end user Flow Errors box in setup."],
+    answer: "C",
+    type: "single"
+  },
+  {
+    question: "  Cloud Kicks has a custom object named shoe. The administrator has been asked to ensure that when a relationship is created between Account and shoe to prevent orphaned shoe records.What should the administrator do to complete this requirement?",
+    options: ["Create an indirect lookup", " Create an encrypted lookup", "Create a hierarchical lookup", "Create a master-detail lookup"],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: "Aw Computing needs to capture a loss reason in rich text field when an opportunity is Closed lost.How should an administrator configure this requirement?  ",
+    options: ["Select the requirement checkbox next to the loss reason field on the page layout.", "Create a validation rule to display an error if stage is Closed lost and Loss Reason is blank.", "Check the required checkbox on the Loss Reason field in Object Manger.", "Configure a workflow rule to display an error if Loss Reason is blank."],
+    answer: "B",
+    type: "single"
+  },
 
 ];
 

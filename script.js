@@ -447,12 +447,75 @@ const quizData = [
     type: "single"
   },
   {
-    question: " Northern Trail Outfitters has the Case Object set to private. The support manager raised a concern the reps have a boarder view of data than expected and can see all cases on their groups dashboards. What could be Causing reps to have inappropriate access to data on dashboards? this?",
+    question: "Northern Trail Outfitters has the Case Object set to private. The support manager raised a concern the reps have a boarder view of data than expected and can see all cases on their groups dashboards. What could be Causing reps to have inappropriate access to data on dashboards? this?",
     options: ["Dashboard Filters", "Dashboard Subscriptions", " Dynamic Dashboards", " Dynamic Dashboards"],
     answer: "C",
     type: "single"
   },
+  {
+    question: "An Administrator wants to trigger a follow-up task for the opportunity owner when they close an opportunity as won and another task after 60 days to check in with the customer. which two automation tools should the administrator use? Choose 2 answers",
+    options: ["process builder", "workflow Rule", "Field Update", "Outbound Message"],
+    answer: "AB",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "An administrator Creates a custom text area field on the Account object and adds it to the service team's page layout. The services team manager loves the addition of this field and wants it to appear in the highlights panel so that the services reps can quickly find it when on the Account Page. How should the administrator accomplish this?",
+    options: ["Create a new page layout and a new section titled highlights panel","In the Account object manager, create a custom compact layout.", "From the page layout editor, drag the field to the highlights panel.", "Make the field required and move it to the top of the page."],
+    answer: "B",
+    type: "single"
+  },
   
+  {
+    question: "A team of support users at Cloud Kicks is helping inside sales reps make follow-up calls to prospects that filled out an interest from online. The team currently does not access to the lead object. How should an administrator provide proper access?",
+    options: ["Create a new profile", "Configure permission sets.", "Assign a new role.", "Set Up Manual Sharing"],
+    answer: "B",
+    type: "single",
+  },
+  {
+    question: "An administrator supporting a global team of salesforce users has been asked to configure company settings. Choose 2 options",
+    options: ["Currency Locale", "Default Language", "Password Policy", "Login Hours"],
+    answer: "AB",
+    type: "multiple",
+    count: 2
+  },
+  {
+    question: "Which item is available in a Lightning App where visibility is limited to the Salesforce Mobile App?",
+    options: ["Today", "Favorites", "Utility Bar","Home Page"],
+    answer: "C",
+    type: "single"
+  },
+  {
+    question: " Ursa Major Solar wants to know which of its marketing efforts are helping the team win Opportunities. What should an administrator configure to provide these insights?",
+    options: ["Campaign Hierarchy", "Campaign Influence", "Map Custom Lead Fields", "List Email Activities"], 
+    answer: "B",
+    type: "single", 
+  },
+  {
+    question: "Ursa Major Solar uses two different page layouts for Account records. One page layout reflects the fields related to customer accounts and another page layout includes fields for partner accounts. The administrator has assigned the customer account page layout to sales and support users and the partner account layout to the partner management team. What should the administrator configure to meet this requirement? ",
+    options: ["Use a public group and a criteria-based sharing rule to share customer accounts with the partner team", "Add members of the partner management team to the default Account team for the customer accounts", "Grant create, read, edit and delete access to customer accounts on the partner team profile", "Create one record type for customer accounts and one record type for partner accounts."],
+    answer: "D",
+    type: "single"
+  },
+  {
+    question: "User at Cloud Kicks want to see information more useful for their role on the Case page. How should an administrator make the pages more dynamic and easier to use? ",
+    options: ["Add Component visibility filters to the Components", "Remove fields from the record details component", "Delete the extra component from the page", "Include more tab components with filters."],   
+    answer: "A",
+    type: "single"
+  },
+  {
+    question: "Universal Containers (UC) customers have provided feedback that their support cases are not being responded to quickly enough. UC wants to send all unassigned Cases that have been open for more than 2 hours to an urgent Case queue and alert the support manager. which feature should an administrator configure to meet this requirement?",
+    options: ["Case Scheduled Reports", "Case Dashboard Refreshes", "Case Escalation Rules", "Case Assignment Rules"],
+    answer: "C",
+    type: "single"
+  },
+  {
+    question: "An administrat Cloud Kicks has created a screen flow for their sales team to use when they add new leads. The screen flow collect name, email and shoe preference. which two things should the administrator do to display the screen flow? Choose 2 answers",
+    options: ["Create a tab and add the screen flow to the page", "Use a flow element and add the screen flow to the record page", "Add the flow in the utility bar of the console", "install an app from the AppExchange"],
+    answer: "AB",
+    type: "multiple",
+    count: 2
+  },
 
 ];
 

@@ -643,6 +643,37 @@ const quizData = [
     answer: "B",
     type: "single"
   },
+  {
+    question: " Users at Cloud Kicks want to be able to create a task that will repeat every two weeks. What should an administrator do to meet the requirement?",
+    options: ["Enable Creation of Recurring Tasks.", "Flow to create recurring tasks.", "Workflow rule to create recurring tasks", "Turn on Recurring Activities."],
+    answer: "A",
+    type: "single"
+  },
+  {
+    question: " Cloud Kicks want its reports to show a Fiscal Year that starts on February 1 and has 12 months. How Should the Administrator Address this requirement?",
+    options: ["Set the Fiscal Year to Custom and the starting month as February.", "Set the Fiscal Year to Custom and the duration to 4 quarters.", "Set the Fiscal Year to Standard and the starting month as February.", "Set the Fiscal Year to Standard and the duration to 12 months."],   
+    answer: "C",
+    type: "single"
+  },
+  {
+    question: " Cloud Kicks has asked the administrator to test a new screen flow that create contacts. What are two key components of testing the flow? Choose 2 answers",
+    options: ["Set Up a flow interview to test the flow.", "Run the flow using it to create contacts.", "Use Debug to test the flow in Flow Builder.", "Test the flow in a sandbox"],
+    answer: "BD",
+    type: "single",
+    count: 2
+  },
+  {
+    question: " An administrator at Universal Containers is reviewing current security settings in the company's Salesforce org What Should the administrator do to prevent unauthorized access to Salesforce? ",
+    options: ["Disable TLS requirements for sessions", "Enable multi factor authentication", "Customize organization wide default", " Enable caching and autocomplete on login page"],
+    answer: "B",
+    type: "single"
+  },
+  {
+    question: " An administration needs to store the ID of record type of later use in a flow. Which kind of variable should the administrator use?",
+    options: ["Boolean variable", "Text variable", "ID variable", "Record variable"],
+    answer: "C",  
+    type: "single"
+  },
 
 ];
 

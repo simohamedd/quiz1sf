@@ -669,11 +669,17 @@ const quizData = [
     type: "single"
   },
   {
-    question: " An administration needs to store the ID of record type of later use in a flow. Which kind of variable should the administrator use?",
+    question: "An administration needs to store the ID of record type of later use in a flow. Which kind of variable should the administrator use?",
     options: ["Boolean variable", "Text variable", "ID variable", "Record variable"],
     answer: "C",  
     type: "single"
   },
+  {
+    question: "Universal Containers (UC) would like to count the number of open cases associated with each account and update the account with this value every Friday evening. UC has several hundred open cases at any given time. What should the administrator use to complete this request?",
+    options: ["Use a record trigger flow.", "Use a scheduled process builder.", "Use a Roll-Up summary.", "Use a scheduled flow."],
+    answer: "D",
+    type: "single"
+  },  
 
 ];
 
